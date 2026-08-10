@@ -1,0 +1,2 @@
+SELECT *,year(curdate()) - birth_year as age FROM actors;
+
